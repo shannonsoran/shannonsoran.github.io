@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One|Sanchez);
+
+#slogan{
+		font-style: italic;
+	}
+
+h1{
+	font-family: 'Fjalla One', sans-serif;
+}
+
+body {
+	background-color: #a3d0cd;
+	text-align: center;
+	font-family: 'Sanchez', serif;
+	color: #fff;
+}
+
+p a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+
+ul {
+	list-style-type: none;
+	line-height: 2em;
+}
+
