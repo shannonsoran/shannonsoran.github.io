@@ -23,11 +23,6 @@ p a {
 	text-transform: uppercase;
 }
 
-ul {
-	list-style-type: none;
-	line-height: 2em;
-}
-
 header {
 	background-color: #fff;
 	padding: 20px;
@@ -36,6 +31,7 @@ header {
 nav {
 	background-color: #fff;
 	padding: 20px;
+	text-transform: uppercase;
 }
 
 footer {
@@ -52,6 +48,7 @@ footer {
 	padding: 2%;
 	width: 28%;
 	float: left;
+	text-transform: uppercase;
 }
 
 #middle {
@@ -59,12 +56,14 @@ footer {
 	width: 28%;
 	float: left;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 #right {
 	padding: 2%;
 	width: 28%;
 	float: left;
+	text-transform: uppercase;
 }
 
 .clearfix:after {
@@ -78,4 +77,5 @@ footer {
 
 a:hover {
 	color: #f2b632;
+	text-transform: uppercase;
 }
