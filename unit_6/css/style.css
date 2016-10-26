@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One|Sanchez);
+
+#slogan{
+		font-style: italic;
+	}
+
+h1{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 2em;
+}
+
+body {
+	background-color: #fff;
+	text-align: center;
+	font-family: 'Sanchez', serif;
+	color: #000;
+}
+
+p a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+}
+
+ul {
+	list-style-type: none;
+	line-height: 2em;
+}
+
+header {
+	background-color: #fff;
+	padding: 20px;
+}
+
+nav {
+	background-color: #fff;
+	padding: 20px;
+}
+
+footer {
+	background-color: #fff;
+	padding: 20px;
+}
+
+#columns {
+	background-color: #fff; 
+	padding: 2%;
+}
+
+#left {
+	padding: 2%;
+	width: 28%;
+	float: left;
+}
+
+#middle {
+	padding: 2%;
+	width: 28%;
+	float: left;
+	text-align: center;
+}
+
+#right {
+	padding: 2%;
+	width: 28%;
+	float: left;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+
+}
+
+a:hover {
+	color: #f2b632;
+}
