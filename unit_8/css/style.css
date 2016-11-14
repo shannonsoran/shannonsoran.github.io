@@ -1,0 +1,207 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One|Sanchez);
+
+#slogan{
+		font-style: italic;
+		font-size: .75em;
+		padding: .5% 0 0 0;
+	}
+
+body {
+	background-color: #fff;
+	text-align: center;
+	font-family: 'Sanchez', serif;
+	color: #000;
+}
+
+h1 {
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 2em;
+	padding: 0 0 2% 0;
+}
+
+ul {
+	text-decoration: none;
+	list-style: none;
+}
+
+}
+
+li {
+	display: inline;
+}
+
+li a {
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 1em;
+	display: inline;
+}
+
+header {
+	background-color: #fff;
+	padding: 3%;
+}
+
+#columns {
+	padding: 0 2% 0 2%;
+	margin: 1% 5% 0 5%;
+	list-style: none;
+	color: black;
+	font-size: 1.1em;
+}
+
+#left {
+	padding: 2.5% 2.5% .5% 2.5%;
+	width: 25%;
+	float: left;
+}
+
+#right {
+	padding: 2.5% 2.5% .5% 2.5%;
+	width: 25%;
+	float: right;
+}
+
+#middle {
+	padding: 2.5% 2.5% .5% 2.5%;
+	margin: 0 0 0 4%;
+	width: 25%;
+	float: left;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+
+}
+
+a:link {
+	text-decoration: none;
+	color: #000;
+	background-color: #fff;
+}
+
+a:hover {
+	color: #f2b632;
+}
+
+img {
+		width: 80%;
+		height: auto;
+}
+
+/*to hide mobile icons and link*/
+
+#about-mobile{
+	display: none;
+}
+
+#portfolio-mobile{
+	display: none;
+}
+
+#contact-mobile{
+	display: none;
+}
+
+
+
+
+/*max-width: 936 */
+
+@media only screen and (max-width: 768px) {
+
+	* { 
+		margin: 0;
+	 }
+
+	a {
+		text-decoration: none;
+		display: block;
+		padding: 2%;
+		font-size: 1em;
+	}
+
+	#left {
+		display: none;
+	}
+
+	#middle {
+		display: none;
+	}
+
+	#right {
+		display: none;
+	}
+
+	#about-mobile{
+		float: none;
+		display: block;
+	}
+
+	#portfolio-mobile{
+		float: none;
+		display: block;
+
+	}
+
+	#contact-mobile{
+		float: none;
+		display: block;
+	}
+
+	img {
+		width: 30%;
+		height: auto;
+	}
+
+
+	#columns {
+		text-align: center;
+	}
+
+	#columns ul {
+		padding: 1%;
+		margin: 0 0 0 0;
+		list-style-type: none;
+	}
+
+	 /* 
+
+	 a {
+		float: left;
+		width: auto;
+		display: block;
+		letter-spacing: 0.1em;
+		line-height: 2.6em;
+		height: 3em;
+		padding: 1% 0 2% 0;
+		margin: 10% 0 11% 0;
+	}
+
+	*/
+
+	li a {
+		font-size: .75em;
+	}
+
+
+	a:link {
+		text-decoration: none;
+		color: #000;
+	}
+
+	a:hover {
+		
+
+}
+	}
+
+}
+
+}
